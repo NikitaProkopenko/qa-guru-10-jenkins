@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import pages.components.*;
 
-public class RegistrationForm {
+public class RegistrationForm extends TestBase{
     RegistrationPage registrationPage = new RegistrationPage();
     GenderCheckboxComponent genderCheckboxComponent = new GenderCheckboxComponent();
     CalendarComponent calendarComponent = new CalendarComponent();
